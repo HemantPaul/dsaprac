@@ -1,3 +1,5 @@
+// Implement a queue using two stack
+
 #include <stdio.h>
 #define max 100
 
