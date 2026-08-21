@@ -1,4 +1,17 @@
+# container with max solution:
+class Solution:
+    def maxArea(self, height: List[int]) -> int:
+        maxA = 0
 
+        for i in range(len(height)):
+            for j in range(i + 1, len(height)):
+                w = j - i
+                h = min(height[i], height[j])
+                area = w * h
+
+                maxA=max(maxA,area)
+
+        return max
 
 
 
