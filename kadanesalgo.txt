@@ -1,0 +1,7 @@
+subbarray --> contgious-->ka sum ya freq ya  product --> best i.e min or max
+canbe used if array has negative positive and zeros use kadanes
+
+
+template--
+index by index jana h
+har index pe 2 tarah k choices h
